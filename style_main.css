@@ -1,0 +1,124 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    text-align: center;
+    margin-top: 10vh;
+    padding-top: 8px;
+    position: relative;
+}
+
+.text-field {
+    width: 37vw; 
+    height: 8vh; 
+    padding: 0.5em; 
+    font-size: 1em; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    outline: none; 
+    box-sizing: border-box;
+}
+
+.text-field::placeholder {
+    color: #888; 
+    font-size: 3vh; 
+}
+
+.btns{
+    text-align: center;
+    padding-top: 6vh;
+}
+
+.btns button{
+    height: fit-content;
+    width: fit-content;
+    font-size: 4vh;
+    padding-left: 1%;
+    padding-right: 1%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    outline: none; 
+}
+
+.submit {
+    margin-left: 3vw; 
+    height: fit-content; 
+    width: fit-content; 
+    font-size: 1em; 
+    padding: 1.5vh;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    outline: none;
+}
+
+
+.submit div {
+    font-size: 3.5vh;
+}
+
+.resultview{
+
+    text-align: center; 
+    padding: 10px;
+    margin-top: 4vh;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    outline: none; 
+}
+
+#res-view-heading, #res-view-conc {
+    font-size: 2.5vh; 
+    padding: 0.5vh 0;
+}
+
+.upbar .downbar .table{
+    width: 60vw;
+}
+
+.upbar, .downbar {
+    background-color: rgba(244, 219, 219, 1);;
+    box-sizing: border-box; 
+    text-align: left;
+    height: 5vh;
+    padding: 0 1vh;
+}
+
+
+
+.table {
+    background-color: rgba(245, 239, 239, 1);
+    height: 40vh;
+    overflow-y: auto; 
+    overflow-x: hidden; 
+    padding: 10px; 
+    overflow: scroll;
+    width: 60vw; 
+    margin: 0 auto; 
+    border-collapse: collapse;
+    display: block; 
+}
+
+.table th, .table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.table th {
+    background-color: #f2f2f2;
+    color: #333;
+    font-weight: bold;
+}
+
+.table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.table tr:hover {
+    background-color: #e0e0e0;
+}
